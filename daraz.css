@@ -1,0 +1,431 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #f85606;
+    width: 100%;
+    height: 120px;
+}
+.links-bar {
+    width: 57%;
+    height: 20px;
+    display: flex;
+    justify-self: center;
+    justify-content: right;
+}
+.links {
+    font-size: 12px;
+    display: flex;
+    padding-top: 5px;
+}
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.links a:hover {
+    color: rgba(245, 245, 245, 0.788);
+}
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    width: 70%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    background-image: url(logo.png);
+    width: 150px;
+    height: 50px;
+    background-size: cover;
+}
+.search-bar {
+    position: relative;
+        width: 50%; /* or 60%, or a fixed max-width like 500px */
+    min-width: 200px;
+    max-width: 600px;
+}
+.search-bar input {
+    position: inherit;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-style: none;
+    width: 100%;
+    height: 50px;
+}
+.search-bar button {
+    position: absolute;
+    top: 2px;
+    right: -100px;
+    height: 47px;
+    width: 50px;
+    border-style: none;
+    background-color: #ffe5db;
+}
+.mag {
+    color: tomato;
+    font-size: 20px;
+    font-weight: light;
+}
+.cart {
+    font-size: 25px;
+    margin-left: 50px;
+    color: white;
+}
+.one {
+    width: 100%;
+    height: 45vb;
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+.heroimg {
+    background-image: url(hero\ img.webp);
+    width: 52%;
+    height: 90%;
+    background-size: cover;
+}
+aside {
+    width: 12%;
+    height: 70%;
+    background: linear-gradient(to bottom, #fff3ed, #ffe5db, #ffb3c6, #ececec);
+}
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.top-logo {
+    background-image: url(logo2.webp);
+    width: 30px;
+    height: 50px;
+    background-size: contain;
+}
+.top-text {
+    display: flex;
+    align-self: center;
+    color: brown;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.mid {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-con {
+    color: white;
+    background: linear-gradient(to bottom, orange, rgb(196, 63, 85));
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 95%;
+    height: 90%;
+}
+.rate {
+    color: white;
+    font-size: 12px;
+}
+.app {
+    display: flex;
+    justify-self: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.pro {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+.shipping {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.ship {
+    background-image: url(shipping.webp);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.shipping p {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.vouchers {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.vouch {
+    background-image: url(vouchers.webp);
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.vouchers p {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.bottom-con {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+}
+.qrcode {
+    background-image: url(qr\ code.webp);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.bottom-but {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+.bottom-but button {
+    width: 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.apple {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.google {
+    display: flex;
+    justify-content: center;
+}
+.play {
+    background-image: url(googleplay.jpg);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.bottom-text {
+    font-size: 11px;
+    margin-left: 12px;
+}
+.two {
+    width: 62%;
+    height: 120px;
+    justify-self: center;
+}
+.flash {
+    font-size: 25px;
+    height: 60px;
+    display: flex;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.767);
+}
+.flash p {
+    margin-top: 30px;
+}
+.low {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+.sale {
+    color: #f85606;
+    font-weight: bold;
+    position: relative;
+    margin-left: 20px;
+}
+.low button {
+    width: 200px;
+    height: 40px;
+    color: #f85606;
+    border: 1px solid #f85606;
+    font-weight: bolder;
+}
+.products {
+    width: 62%;
+    height: 400px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.301);
+    justify-self: center;
+    display: flex;
+}
+.content {
+    width: 100%;
+    height: 280px;
+    display: flex;
+}
+.content a {
+    text-decoration: none;
+    color: black;
+}
+.prod {
+    width: 200px;
+    height: 280px;
+    margin-top: 10px;
+}
+.prod1-img {
+    background-image: url(pro1.webp);
+    width: 180px;
+    height: 200px;
+    background-size: cover;
+}
+.prod-name {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: black;
+}
+.rs {
+    color: tomato;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.dis {
+    margin-left: 10px;
+    display: flex;
+}
+.price {
+    color: gray;
+    font-size: 12px;
+    margin-right: 8px;
+    text-decoration: line-through;
+}
+.dis p {
+    font-size: 12px;
+}
+.prod2-img {
+    background-image: url(pro2.webp);
+    width: 180px;
+    height: 200px;
+    background-size: cover;
+}
+.prod3-img {
+    background-image: url(pro3.webp);
+    width: 190px;
+    height: 200px;
+    background-size: cover;
+}
+.prod4-img {
+    background-image: url(pro4.webp);
+    width: 190px;
+    height: 200px;
+    background-size: cover;
+}
+.prod5-img {
+    background-image: url(pro5.webp);
+    width: 190px;
+    height: 200px;
+    background-size: cover;
+}
+.prod6-img {
+    background-image: url(pro6.webp);
+    width: 190px;
+    height: 200px;
+    background-size: cover;
+}
+footer {
+    width: 65%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+}
+.left1 {
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+
+}
+.left1 a {
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.left1 a:hover {
+    text-decoration: underline;
+}
+.left2 {
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+}
+.left2 a {
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.left2 a:hover {
+    text-decoration: underline;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.right1 {
+    display: flex;
+    margin-top: 50px;
+}
+.right1img {
+    background-image: url(footlogo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.right1text {
+    margin-left: 10px;
+    color: tomato;
+    font-size: 18px;
+}
+.right1text a {
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.right2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.images {
+    display: flex;
+}
+.img1 {
+    background-image: url(img1.png);
+    width: 150px;
+    height: 50px;
+    background-size: contain;
+}
+.img2 {
+    background-image: url(img2.png);
+    width: 150px;
+    margin-left: 20px;
+    height: 50px;
+    background-size: contain;
+}
+.img3 {
+    background-image: url(img3.png);
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background-size: contain;
+}
